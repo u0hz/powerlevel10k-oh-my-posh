@@ -60,7 +60,7 @@
           "style": "powerline",
           "powerline_symbol": "",
           "invert_powerline": true,
-          "foreground": "#E4E4E4",
+          "foreground": "#C19C00",
           "background": "#0C0C0C",
           "properties": {
             "display_exit_code": true,
@@ -68,8 +68,8 @@
             "color_background": true,
             "error_color": "#C50F1F",
             "always_numeric": true,
-            "success_icon": "✔",
-            "error_icon": "✘ "
+            "success_icon": "<#13A10E>✔</>",
+            "error_icon": "<#C19C00>✘ </>"
           }
         },
         {
@@ -92,6 +92,18 @@
           "background": "#0C0C0C",
           "properties": {
             "root_icon": "\uF132"
+          }
+        },
+        {
+          "type": "time",
+          "style": "powerline",
+          "powerline_symbol": "",
+          "invert_powerline": true,
+          "foreground": "#0C0C0C",
+          "background": "#CCCCCC",
+          "properties": {
+            "postfix": "  ",
+            "time_format": "15:04:05"
           }
         },
         {
