@@ -1,0 +1,1 @@
+# powerlevel10k-oh-my-posh
