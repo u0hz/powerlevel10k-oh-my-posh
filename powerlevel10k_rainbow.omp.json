@@ -1,5 +1,4 @@
 {
-  "$schema": "https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh3/main/themes/schema.json",
   "blocks": [
     {
       "type": "prompt",
@@ -48,12 +47,7 @@
             "display_worktree_count": true,
             "display_upstream_icon": true,
             "status_colors_enabled": true,
-            "working_color": "",
-            "staging_color": "",
-            "local_changes_color": "#C19C00",
-            "ahead_and_behind_color": "",
-            "behind_color": "",
-            "ahead_color": ""
+            "local_changes_color": "#C19C00"
           }
         }
       ]
@@ -67,7 +61,7 @@
           "powerline_symbol": "",
           "invert_powerline": true,
           "foreground": "#E4E4E4",
-          "background": "#000000",
+          "background": "#0C0C0C",
           "properties": {
             "display_exit_code": true,
             "always_enabled": true,
@@ -87,6 +81,17 @@
           "background": "#C19C00",
           "properties": {
             "postfix": " \uF252 "
+          }
+        },
+        {
+          "type": "root",
+          "style": "powerline",
+          "powerline_symbol": "",
+          "invert_powerline": true,
+          "foreground": "#C50F1F",
+          "background": "#0C0C0C",
+          "properties": {
+            "root_icon": "\uF132"
           }
         },
         {
