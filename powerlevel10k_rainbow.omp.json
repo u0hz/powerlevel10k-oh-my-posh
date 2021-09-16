@@ -1,0 +1,113 @@
+{
+  "$schema": "https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh3/main/themes/schema.json",
+  "blocks": [
+    {
+      "type": "prompt",
+      "alignment": "left",
+      "segments": [
+        {
+          "type": "text",
+          "style": "plain",
+          "properties": {
+            "prefix": "",
+            "postfix": "\n",
+            "text": ""
+          }
+        },
+        {
+          "type": "os",
+          "style": "powerline",
+          "foreground": "#080808",
+          "background": "#CCCCCC",
+          "properties": {
+            "windows": "\uE70F"
+          }
+        },
+        {
+          "type": "path",
+          "style": "powerline",
+          "powerline_symbol": "",
+          "foreground": "#e4e4e4",
+          "background": "#0037DA",
+          "properties": {
+            "prefix": " \uF07C ",
+            "home_icon": "~",
+            "style": "full"
+          }
+        },
+        {
+          "type": "git",
+          "style": "powerline",
+          "powerline_symbol": "",
+          "foreground": "#0C0C0C",
+          "background": "#13A10E",
+          "properties": {
+            "branch_icon": "\uF126 ",
+            "display_status": true,
+            "display_stash_count": true,
+            "display_worktree_count": true,
+            "display_upstream_icon": true,
+            "status_colors_enabled": true,
+            "working_color": "",
+            "staging_color": "",
+            "local_changes_color": "#C19C00",
+            "ahead_and_behind_color": "",
+            "behind_color": "",
+            "ahead_color": ""
+          }
+        }
+      ]
+    },
+    {
+      "type": "rprompt",
+      "segments": [
+        {
+          "type": "exit",
+          "style": "powerline",
+          "powerline_symbol": "",
+          "invert_powerline": true,
+          "foreground": "#E4E4E4",
+          "background": "#000000",
+          "properties": {
+            "display_exit_code": true,
+            "always_enabled": true,
+            "color_background": true,
+            "error_color": "#C50F1F",
+            "always_numeric": true,
+            "success_icon": "✔",
+            "error_icon": "✘ "
+          }
+        },
+        {
+          "type": "executiontime",
+          "style": "powerline",
+          "powerline_symbol": "",
+          "invert_powerline": true,
+          "foreground": "#0C0C0C",
+          "background": "#C19C00",
+          "properties": {
+            "postfix": " \uF252 "
+          }
+        },
+        {
+          "type": "text",
+          "style": "powerline",
+          "properties": {
+            "prefix": "",
+            "postfix": "",
+            "text": ""
+          }
+        }
+      ]
+    }
+  ],
+  "transient_prompt": {
+    "background": "transparent",
+    "foreground": "#5FD700",
+    "template": "❯"
+  },
+  "final_space": true,
+  "console_title": true,
+  "console_title_style": "template",
+  "console_title_template": "{{ .Folder }}"
+}
